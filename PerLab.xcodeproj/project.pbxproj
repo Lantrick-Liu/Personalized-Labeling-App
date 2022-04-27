@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0EB2C623492ADC00E932B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2C523492ADC00E932B9 /* AppDelegate.swift */; };
+		FE0EB2CA23492ADC00E932B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2C923492ADC00E932B9 /* ViewController.swift */; };
+		FE0EB2CD23492ADC00E932B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2CB23492ADC00E932B9 /* Main.storyboard */; };
+		FE0EB2CF23492ADD00E932B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2CE23492ADD00E932B9 /* Assets.xcassets */; };
+		FE0EB2D223492ADD00E932B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2D023492ADD00E932B9 /* LaunchScreen.storyboard */; };
+		FE0EB2DD23492ADE00E932B9 /* PerLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2DC23492ADE00E932B9 /* PerLabTests.swift */; };
+		FE0EB2E823492ADE00E932B9 /* PerLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2E723492ADE00E932B9 /* PerLabUITests.swift */; };
+		FE0EB2F623496F8100E932B9 /* pdpwarn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2F523496F8100E932B9 /* pdpwarn.png */; };
+		FE3FA54D234A0F8C00DDC7CE /* Warn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3FA54C234A0F8C00DDC7CE /* Warn.png */; };
+		FE3FA54F234A0F9000DDC7CE /* No.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3FA54E234A0F9000DDC7CE /* No.jpg */; };
+		FEAAB939234A397C002C550F /* Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB938234A397C002C550F /* Ok.png */; };
+		FEAAB93B234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB93A234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift */; };
+		FEAAB93F234A9361002C550F /* SCNNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB93E234A9361002C550F /* SCNNodeExtension.swift */; };
+		FEAAB942234AAAF5002C550F /* DetailScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB941234AAAF5002C550F /* DetailScene.sks */; };
+		FEAAB944234AABA3002C550F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB943234AABA3002C550F /* Default-568h@2x.png */; };
+		FEAAB94C234B0A59002C550F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB94B234B0A59002C550F /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0EB2D923492ADE00E932B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0EB2BA23492ADC00E932B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0EB2C123492ADC00E932B9;
+			remoteInfo = PerLab;
+		};
+		FE0EB2E423492ADE00E932B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0EB2BA23492ADC00E932B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0EB2C123492ADC00E932B9;
+			remoteInfo = PerLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0EB2C223492ADC00E932B9 /* PerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0EB2C523492ADC00E932B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0EB2C923492ADC00E932B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0EB2CC23492ADC00E932B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0EB2CE23492ADD00E932B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0EB2D123492ADD00E932B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0EB2D323492ADD00E932B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0EB2D823492ADE00E932B9 /* PerLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0EB2DC23492ADE00E932B9 /* PerLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerLabTests.swift; sourceTree = "<group>"; };
+		FE0EB2DE23492ADE00E932B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0EB2E323492ADE00E932B9 /* PerLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0EB2E723492ADE00E932B9 /* PerLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerLabUITests.swift; sourceTree = "<group>"; };
+		FE0EB2E923492ADE00E932B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0EB2F523496F8100E932B9 /* pdpwarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdpwarn.png; sourceTree = "<group>"; };
+		FE3FA54C234A0F8C00DDC7CE /* Warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warn.png; sourceTree = "<group>"; };
+		FE3FA54E234A0F9000DDC7CE /* No.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = No.jpg; sourceTree = "<group>"; };
+		FEAAB938234A397C002C550F /* Ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ok.png; sourceTree = "<group>"; };
+		FEAAB93A234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		FEAAB93E234A9361002C550F /* SCNNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtension.swift; sourceTree = "<group>"; };
+		FEAAB941234AAAF5002C550F /* DetailScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DetailScene.sks; sourceTree = "<group>"; };
+		FEAAB943234AABA3002C550F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEAAB94B234B0A59002C550F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0EB2BF23492ADC00E932B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2D523492ADE00E932B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2E023492ADE00E932B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0EB2B923492ADC00E932B9 = {
+			isa = PBXGroup;
+			children = (
+				FE0EB2C423492ADC00E932B9 /* PerLab */,
+				FE0EB2DB23492ADE00E932B9 /* PerLabTests */,
+				FE0EB2E623492ADE00E932B9 /* PerLabUITests */,
+				FE0EB2C323492ADC00E932B9 /* Products */,
+				FE0EB2F523496F8100E932B9 /* pdpwarn.png */,
+				FE3FA54C234A0F8C00DDC7CE /* Warn.png */,
+				FE3FA54E234A0F9000DDC7CE /* No.jpg */,
+				FEAAB943234AABA3002C550F /* Default-568h@2x.png */,
+				FEAAB938234A397C002C550F /* Ok.png */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0EB2C323492ADC00E932B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0EB2C223492ADC00E932B9 /* PerLab.app */,
+				FE0EB2D823492ADE00E932B9 /* PerLabTests.xctest */,
+				FE0EB2E323492ADE00E932B9 /* PerLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0EB2C423492ADC00E932B9 /* PerLab */ = {
+			isa = PBXGroup;
+			children = (
+				FE0EB2C523492ADC00E932B9 /* AppDelegate.swift */,
+				FE0EB2C923492ADC00E932B9 /* ViewController.swift */,
+				FEAAB93A234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift */,
+				FEAAB93E234A9361002C550F /* SCNNodeExtension.swift */,
+				FEAAB94A234B0A46002C550F /* Extensions */,
+				FE0EB2D023492ADD00E932B9 /* LaunchScreen.storyboard */,
+				FE0EB2CB23492ADC00E932B9 /* Main.storyboard */,
+				FE0EB2D323492ADD00E932B9 /* Info.plist */,
+				FEAAB941234AAAF5002C550F /* DetailScene.sks */,
+				FE0EB2CE23492ADD00E932B9 /* Assets.xcassets */,
+			);
+			path = PerLab;
+			sourceTree = "<group>";
+		};
+		FE0EB2DB23492ADE00E932B9 /* PerLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0EB2DC23492ADE00E932B9 /* PerLabTests.swift */,
+				FE0EB2DE23492ADE00E932B9 /* Info.plist */,
+			);
+			path = PerLabTests;
+			sourceTree = "<group>";
+		};
+		FE0EB2E623492ADE00E932B9 /* PerLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0EB2E723492ADE00E932B9 /* PerLabUITests.swift */,
+				FE0EB2E923492ADE00E932B9 /* Info.plist */,
+			);
+			path = PerLabUITests;
+			sourceTree = "<group>";
+		};
+		FEAAB94A234B0A46002C550F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEAAB94B234B0A59002C550F /* File.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0EB2C123492ADC00E932B9 /* PerLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0EB2EC23492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLab" */;
+			buildPhases = (
+				FE0EB2BE23492ADC00E932B9 /* Sources */,
+				FE0EB2BF23492ADC00E932B9 /* Frameworks */,
+				FE0EB2C023492ADC00E932B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerLab;
+			productName = PerLab;
+			productReference = FE0EB2C223492ADC00E932B9 /* PerLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0EB2D723492ADE00E932B9 /* PerLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0EB2EF23492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLabTests" */;
+			buildPhases = (
+				FE0EB2D423492ADE00E932B9 /* Sources */,
+				FE0EB2D523492ADE00E932B9 /* Frameworks */,
+				FE0EB2D623492ADE00E932B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0EB2DA23492ADE00E932B9 /* PBXTargetDependency */,
+			);
+			name = PerLabTests;
+			productName = PerLabTests;
+			productReference = FE0EB2D823492ADE00E932B9 /* PerLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0EB2E223492ADE00E932B9 /* PerLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0EB2F223492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLabUITests" */;
+			buildPhases = (
+				FE0EB2DF23492ADE00E932B9 /* Sources */,
+				FE0EB2E023492ADE00E932B9 /* Frameworks */,
+				FE0EB2E123492ADE00E932B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0EB2E523492ADE00E932B9 /* PBXTargetDependency */,
+			);
+			name = PerLabUITests;
+			productName = PerLabUITests;
+			productReference = FE0EB2E323492ADE00E932B9 /* PerLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0EB2BA23492ADC00E932B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Lanqing Liu";
+				TargetAttributes = {
+					FE0EB2C123492ADC00E932B9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FE0EB2D723492ADE00E932B9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE0EB2C123492ADC00E932B9;
+					};
+					FE0EB2E223492ADE00E932B9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE0EB2C123492ADC00E932B9;
+					};
+				};
+			};
+			buildConfigurationList = FE0EB2BD23492ADC00E932B9 /* Build configuration list for PBXProject "PerLab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0EB2B923492ADC00E932B9;
+			productRefGroup = FE0EB2C323492ADC00E932B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0EB2C123492ADC00E932B9 /* PerLab */,
+				FE0EB2D723492ADE00E932B9 /* PerLabTests */,
+				FE0EB2E223492ADE00E932B9 /* PerLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0EB2C023492ADC00E932B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0EB2F623496F8100E932B9 /* pdpwarn.png in Resources */,
+				FEAAB942234AAAF5002C550F /* DetailScene.sks in Resources */,
+				FEAAB944234AABA3002C550F /* Default-568h@2x.png in Resources */,
+				FE0EB2D223492ADD00E932B9 /* LaunchScreen.storyboard in Resources */,
+				FEAAB939234A397C002C550F /* Ok.png in Resources */,
+				FE3FA54F234A0F9000DDC7CE /* No.jpg in Resources */,
+				FE3FA54D234A0F8C00DDC7CE /* Warn.png in Resources */,
+				FE0EB2CF23492ADD00E932B9 /* Assets.xcassets in Resources */,
+				FE0EB2CD23492ADC00E932B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2D623492ADE00E932B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2E123492ADE00E932B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0EB2BE23492ADC00E932B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAAB93F234A9361002C550F /* SCNNodeExtension.swift in Sources */,
+				FEAAB94C234B0A59002C550F /* File.swift in Sources */,
+				FEAAB93B234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				FE0EB2CA23492ADC00E932B9 /* ViewController.swift in Sources */,
+				FE0EB2C623492ADC00E932B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2D423492ADE00E932B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0EB2DD23492ADE00E932B9 /* PerLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0EB2DF23492ADE00E932B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0EB2E823492ADE00E932B9 /* PerLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0EB2DA23492ADE00E932B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0EB2C123492ADC00E932B9 /* PerLab */;
+			targetProxy = FE0EB2D923492ADE00E932B9 /* PBXContainerItemProxy */;
+		};
+		FE0EB2E523492ADE00E932B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0EB2C123492ADC00E932B9 /* PerLab */;
+			targetProxy = FE0EB2E423492ADE00E932B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0EB2CB23492ADC00E932B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0EB2CC23492ADC00E932B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0EB2D023492ADD00E932B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0EB2D123492ADD00E932B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0EB2EA23492ADE00E932B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE0EB2EB23492ADE00E932B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0EB2ED23492ADE00E932B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0EB2EE23492ADE00E932B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE0EB2F023492ADE00E932B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com.PerLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerLab.app/PerLab";
+			};
+			name = Debug;
+		};
+		FE0EB2F123492ADE00E932B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com.PerLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerLab.app/PerLab";
+			};
+			name = Release;
+		};
+		FE0EB2F323492ADE00E932B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com.PerLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerLab;
+			};
+			name = Debug;
+		};
+		FE0EB2F423492ADE00E932B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B79S84JYK5;
+				INFOPLIST_FILE = PerLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liulanqing2008developer.com.PerLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0EB2BD23492ADC00E932B9 /* Build configuration list for PBXProject "PerLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0EB2EA23492ADE00E932B9 /* Debug */,
+				FE0EB2EB23492ADE00E932B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0EB2EC23492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0EB2ED23492ADE00E932B9 /* Debug */,
+				FE0EB2EE23492ADE00E932B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0EB2EF23492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0EB2F023492ADE00E932B9 /* Debug */,
+				FE0EB2F123492ADE00E932B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0EB2F223492ADE00E932B9 /* Build configuration list for PBXNativeTarget "PerLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0EB2F323492ADE00E932B9 /* Debug */,
+				FE0EB2F423492ADE00E932B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0EB2BA23492ADC00E932B9 /* Project object */;
+}
