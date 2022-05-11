@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA44D0F2282B620F00CD4A29 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA44D0F1282B620F00CD4A29 /* Default-568h@2x.png */; };
 		FE0EB2C623492ADC00E932B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2C523492ADC00E932B9 /* AppDelegate.swift */; };
 		FE0EB2CA23492ADC00E932B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2C923492ADC00E932B9 /* ViewController.swift */; };
 		FE0EB2CD23492ADC00E932B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2CB23492ADC00E932B9 /* Main.storyboard */; };
@@ -14,14 +15,12 @@
 		FE0EB2D223492ADD00E932B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2D023492ADD00E932B9 /* LaunchScreen.storyboard */; };
 		FE0EB2DD23492ADE00E932B9 /* PerLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2DC23492ADE00E932B9 /* PerLabTests.swift */; };
 		FE0EB2E823492ADE00E932B9 /* PerLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB2E723492ADE00E932B9 /* PerLabUITests.swift */; };
-		FE0EB2F623496F8100E932B9 /* pdpwarn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0EB2F523496F8100E932B9 /* pdpwarn.png */; };
 		FE3FA54D234A0F8C00DDC7CE /* Warn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3FA54C234A0F8C00DDC7CE /* Warn.png */; };
 		FE3FA54F234A0F9000DDC7CE /* No.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3FA54E234A0F9000DDC7CE /* No.jpg */; };
 		FEAAB939234A397C002C550F /* Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB938234A397C002C550F /* Ok.png */; };
 		FEAAB93B234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB93A234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift */; };
 		FEAAB93F234A9361002C550F /* SCNNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB93E234A9361002C550F /* SCNNodeExtension.swift */; };
 		FEAAB942234AAAF5002C550F /* DetailScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB941234AAAF5002C550F /* DetailScene.sks */; };
-		FEAAB944234AABA3002C550F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAAB943234AABA3002C550F /* Default-568h@2x.png */; };
 		FEAAB94C234B0A59002C550F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAAB94B234B0A59002C550F /* File.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA44D0F1282B620F00CD4A29 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Desktop/Default-568h@2x.png"; sourceTree = "<group>"; };
 		FE0EB2C223492ADC00E932B9 /* PerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0EB2C523492ADC00E932B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0EB2C923492ADC00E932B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,14 +56,12 @@
 		FE0EB2E323492ADE00E932B9 /* PerLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0EB2E723492ADE00E932B9 /* PerLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerLabUITests.swift; sourceTree = "<group>"; };
 		FE0EB2E923492ADE00E932B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE0EB2F523496F8100E932B9 /* pdpwarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdpwarn.png; sourceTree = "<group>"; };
 		FE3FA54C234A0F8C00DDC7CE /* Warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warn.png; sourceTree = "<group>"; };
 		FE3FA54E234A0F9000DDC7CE /* No.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = No.jpg; sourceTree = "<group>"; };
 		FEAAB938234A397C002C550F /* Ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ok.png; sourceTree = "<group>"; };
 		FEAAB93A234A7B73002C550F /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
 		FEAAB93E234A9361002C550F /* SCNNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtension.swift; sourceTree = "<group>"; };
 		FEAAB941234AAAF5002C550F /* DetailScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DetailScene.sks; sourceTree = "<group>"; };
-		FEAAB943234AABA3002C550F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FEAAB94B234B0A59002C550F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,11 +97,10 @@
 				FE0EB2DB23492ADE00E932B9 /* PerLabTests */,
 				FE0EB2E623492ADE00E932B9 /* PerLabUITests */,
 				FE0EB2C323492ADC00E932B9 /* Products */,
-				FE0EB2F523496F8100E932B9 /* pdpwarn.png */,
 				FE3FA54C234A0F8C00DDC7CE /* Warn.png */,
 				FE3FA54E234A0F9000DDC7CE /* No.jpg */,
-				FEAAB943234AABA3002C550F /* Default-568h@2x.png */,
 				FEAAB938234A397C002C550F /* Ok.png */,
+				AA44D0F1282B620F00CD4A29 /* Default-568h@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,9 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0EB2F623496F8100E932B9 /* pdpwarn.png in Resources */,
+				AA44D0F2282B620F00CD4A29 /* Default-568h@2x.png in Resources */,
 				FEAAB942234AAAF5002C550F /* DetailScene.sks in Resources */,
-				FEAAB944234AABA3002C550F /* Default-568h@2x.png in Resources */,
 				FE0EB2D223492ADD00E932B9 /* LaunchScreen.storyboard in Resources */,
 				FEAAB939234A397C002C550F /* Ok.png in Resources */,
 				FE3FA54F234A0F9000DDC7CE /* No.jpg in Resources */,
